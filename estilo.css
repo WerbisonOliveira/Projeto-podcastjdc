@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Avenger";
+    src: url('Fontes/AVENGEANCE\ HEROIC\ AVENGER\ AT.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: "Sans";
+    src: url('Fontes/CursiveSans-Bold.ttf') format('TrueType');
+}
+
+:root {
+    --fonte-padrão: "Avenger";
+    --fonte-destaque: "Sans";
+}
+
+body {
+    position: relative;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    gap: 300px;
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+    width: 100vw;
+}
+
+header > a > img {
+    padding-left: 150px;
+    width: 70px;
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    gap: 60px;
+}
+
+nav > a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    color: rgb(255, 153, 0);
+    transition-duration: 0.5s;
+}
+
+main > .seção1 {
+    background:  white url("Imagens/on-air-gbb836f664_1280.jpg") center center no-repeat fixed ;
+    background-size: cover;
+    height: 90vh;
+}
+
+main > #contatos {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+main > #contatos > h1 {
+    color: rgb(240, 151, 34);
+    font-family: var(--fonte-destaque);
+    font-size: 3.5rem;
+    text-align: center;
+}
+
