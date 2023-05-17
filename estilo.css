@@ -20,34 +20,24 @@
     --fonte-destaque: "Sans";
 }
 
-body {
-    position: relative;
-}
-
 header {
     background-color: black;
-    position: fixed;
-    z-index: 1;
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
     align-items: center;
-    gap: 300px;
+    flex-wrap: wrap;
     padding: 5px;
     width: 100vw;
+    
 }
 
 header > a > img {
-    padding-left: 150px;
-    width: 70px;
-    height: 70px;
-}
-
-nav {
-    display: flex;
-    gap: 60px;
+    width: 75px;
+    height: 75px;
 }
 
 nav > a {
+    padding: 15px;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -62,10 +52,8 @@ nav > a:hover {
 }
 
 
-main > .seção1 {
-    background:  white url("Imagens/on-air-gbb836f664_1280.jpg") center center no-repeat fixed;
-    background-size: cover;
-    height: 90vh;
+main > .seção1 > img {
+    width: 100%;
 }
 
 main > #contatos {
