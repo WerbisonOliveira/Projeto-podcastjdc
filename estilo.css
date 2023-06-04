@@ -21,13 +21,12 @@
 }
 
 header {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding: 5px;
-    width: 100vw;
     
 }
 
@@ -52,19 +51,65 @@ nav > a:hover {
 }
 
 
-main > .seção1 > img {
-    width: 100%;
+main > .seção1 {
+    box-shadow: inset 5px 5px 8px rgba(0, 0, 0, 0.507);
+    background: azure url("Imagens/on-air-gbb836f664_1280.jpg") center center no-repeat fixed;
+    background-size: cover;
+    padding-bottom: 60%;
 }
 
-main > #contatos {
-    background-color: rgb(0, 0, 0);
+main > #Sobre {
+    background-color: rgb(14, 14, 14);
     padding: 20px;
 }
 
-main > #contatos > h1 {
+main > #Sobre > h1 {
     color: rgb(240, 151, 34);
     font-family: var(--fonte-destaque);
     font-size: 3.5rem;
     text-align: center;
+}
+
+main > #Sobre > p {
+    color: rgb(240, 151, 34);
+    font-family: var(--fonte-destaque);
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 50px;
+}
+
+main > #contatos {
+    background-color: rgb(240, 151, 34);
+    padding: 20px;
+}
+
+main > #contatos > h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+main > #contatos > p {
+    font-family: var(--fonte-destaque);
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+}
+
+main > #contatos > a {
+    margin-left: 550px;
+    font-family: var(--fonte-destaque);
+    text-decoration: none;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 2rem;
+    transition-duration: 0.5s;
+}
+
+main > #contatos > a:hover {
+    color: rgb(240, 151, 34);
+    background-color: black;
+    transition-duration: 0.5s;
 }
 
