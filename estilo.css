@@ -50,60 +50,61 @@ nav > a:hover {
     transition-duration: 0.5s;
 }
 
-
 main > .seção1 {
     box-shadow: inset 5px 5px 8px rgba(0, 0, 0, 0.507);
     background: azure url("Imagens/on-air-gbb836f664_1280.jpg") center center no-repeat fixed;
     background-size: cover;
-    padding-bottom: 60%;
+    padding-bottom: 40%;
 }
 
 main > #Sobre {
     background-color: rgb(14, 14, 14);
-    padding: 20px;
+    padding: 30px;
 }
 
 main > #Sobre > h1 {
     color: rgb(240, 151, 34);
     font-family: var(--fonte-destaque);
-    font-size: 3.5rem;
+    font-size: 6vw;
     text-align: center;
 }
 
 main > #Sobre > p {
     color: rgb(240, 151, 34);
     font-family: var(--fonte-destaque);
-    font-size: 2.5rem;
+    font-size: 3.5vw;
     text-align: center;
     margin: 50px;
 }
 
 main > #contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
     background-color: rgb(240, 151, 34);
-    padding: 20px;
 }
 
 main > #contatos > h1 {
     font-family: var(--fonte-destaque);
-    font-size: 3.5rem;
+    font-size: 6vw;
     text-align: center;
 }
 
 main > #contatos > p {
     font-family: var(--fonte-destaque);
-    font-size: 2rem;
+    font-size: 3.5vw;
     text-align: center;
-    padding: 20px;
+    line-height: 2em;
 }
 
 main > #contatos > a {
-    margin-left: 550px;
     font-family: var(--fonte-destaque);
     text-decoration: none;
     padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
-    font-size: 2rem;
+    font-size: 2vw;
     transition-duration: 0.5s;
 }
 
